@@ -37,7 +37,7 @@ while not game_over:
     # using the "in" method to ensure a valid option was entered
     elif user_option in play_options:
         # Get a random number from 0..2 for computer play
-        computer_option_ndx = random.randint(0, 2)
+        computer_option_ndx = random.randint(0, len(play_options) - 1)
         # Use that number as an index into the chars
         computer_option = play_options[computer_option_ndx]
         print(
