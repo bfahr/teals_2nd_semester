@@ -155,7 +155,7 @@ def load_initial_db() -> dict:
     db = dict()
     # Load the initial song database
     for line in read_song_db():
-        pass  # Remove this line and replace with your code
+        pass  # TODO: Remove this line and replace with your code
 
     return db
 
@@ -171,7 +171,7 @@ def find_artist_songs(artist: str, in_db: dict) -> list:
         list (str): Returns a list of strings containing the string album/song names or an empty list if
         there are no songs by the artist
     """
-    pass  # Replace this line with your code for this function
+    pass  # TODO: Replace this line with your code for this function
 
 
 def find_songs_like(text: str, in_db: dict) -> list:
@@ -185,12 +185,12 @@ def find_songs_like(text: str, in_db: dict) -> list:
         list (str): A list containing the string artist/album/song for all of matching entries
         or an empty list if there are no songs by the artist
     """
-    pass  # Replace this line with your code for this function
+    pass  # TODO: Replace this line with your code for this function
 
 
 def help():
     """ Print the list of commands supported by the program. """
-    pass  # Replace this line with your code for this function
+    pass  # TODO: Replace this line with your code for this function
 
 
 # Setup program variables
